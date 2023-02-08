@@ -10,7 +10,7 @@ def tråd2():
         print("Tråd 2 kjører")
         time.sleep(2)
 
-t1 = threading.Thread(target=tråd1, args=(1,19))
+t1 = threading.Thread(target=tråd1, args=(1,18))
 t2 = threading.Thread(target=tråd2)
 t1.start()
 t2.start()
